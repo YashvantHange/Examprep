@@ -1,0 +1,8 @@
+title,category,difficulty,time_limit,description
+CompTIA Security+,Security+,Medium,90,Vendor-neutral baseline cybersecurity certification.
+CEH,Ethical Hacking,Hard,120,Certified Ethical Hacker exam covering reconnaissance to reporting.
+AWS Solutions Architect,AWS,Medium,120,"Designing resilient, performant, cost-optimized architectures on AWS."
+CompTIA CySA+,Blue Team,Medium,120,"SOC-focused certification covering SIEM analysis, vulnerability management, and incident response."
+CompTIA PenTest+,Penetration Testing,Hard,120,"Hands-on offensive security exam on planning, recon, exploitation, and reporting."
+AWS Certified Security – Specialty,AWS Security,Hard,120,"Advanced AWS security: IAM, KMS, logging/monitoring, incident response, and data protection."
+ISC2 Certified in Cybersecurity,Entry-Level Cybersecurity,Easy,90,"Foundational security principles, access control, network security, and operations."

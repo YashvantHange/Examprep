@@ -1,0 +1,572 @@
+exam_title,topic_name,type,question_text,options,correct_answers,explanation,difficulty
+CEH,Reconnaissance,MCQ,Which is passive recon?,WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Reconnaissance,MCQ,Robots.txt is used to:,Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Scanning & Enumeration,MCQ,Common ping sweep tool:,Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Scanning & Enumeration,MCQ,SMB runs typically on port:,21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Exploitation,MCQ,SQL injection targets:,Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Exploitation,MCQ,Stored XSS persists in:,Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,Privilege escalation aims to:,Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Scanning & Enumeration,MCQ,The -sS Nmap option performs:,ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Exploitation,MCQ,Metasploit module types include:,"Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Reconnaissance,MCQ,Shodan is best described as:,Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Exploitation,MCQ,CSRF mainly exploits:,Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits the site's trust in a user's browser.,Medium
+CEH,Scanning & Enumeration,MCQ,SNMP v3 improves over v2 by:,More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds auth & privacy.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,A keylogger records:,Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Exploitation,MCQ,Command injection occurs when:,User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Scanning & Enumeration,MCQ,Netcat is commonly used for:,Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Reconnaissance,TRUE_FALSE,Google dorking can reveal sensitive files.,True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Persistence technique example:,Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Exploitation,MCQ,XXE abuses:,XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Scanning & Enumeration,MCQ,Which banner hints at Apache?,Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Reporting should include:,"Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+exam_title,topic_name,type,question_text,options,correct_answers,explanation,difficulty
+CEH,Cloud Security,MCQ,Exam-style: IAM least privilege principle means: (Exam-style),Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Malware & Threats,MCQ,"In an assessment, Ransomware typically: (Scenario A)",Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Social Engineering,MCQ,Exam-style: Pretexting involves: (Case Study),Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Scanning & Enumeration,MCQ,"In an assessment, Which banner hints at Apache? (Scenario A)",Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Malware & Threats,MCQ,"During a pentest, APT stands for: (SOC Analyst)",Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Web Security,MCQ,"During a pentest, HTTP-only cookie flag helps prevent: (SOC Analyst)",SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Cryptography,MCQ,"In an assessment, Hashing ensures: (Threat Intel)",Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: A keylogger records: (Mock),Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Cryptography,MCQ,"During a pentest, AES stands for: (SOC Analyst)",Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Exploitation,MCQ,"In an assessment, Tool sqlmap automates: (Threat Intel)",SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Social Engineering,MCQ,"In an assessment, Phishing mainly relies on: (Threat Intel)",Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Scanning & Enumeration,MCQ,Netcat is commonly used for:,Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: Privilege escalation aims to: (Pentest Engagement),Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: Privilege escalation aims to: (Case Study),Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Cryptography,MCQ,Security team asks: Symmetric encryption uses: (Mock),Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Cryptography,MCQ,"During a pentest, Symmetric encryption uses: (SOC Analyst)",Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Social Engineering,MCQ,"During a pentest, Pretexting involves: (SOC Analyst)",Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Scanning & Enumeration,MCQ,Common ping sweep tool:,Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Exploitation,MCQ,Security team asks: EternalBlue exploits vulnerability in: (Mock),SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Scanning & Enumeration,MCQ,Security team asks: SMB runs typically on port: (Mock),21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Reconnaissance,TRUE_FALSE,"As a CEH, Google dorking can reveal sensitive files. (Critical)",True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Exploitation,MCQ,"During a pentest, Cross-site scripting impacts: (Real-world)",Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: Reporting should include: (Mock),"Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, A keylogger records: (SOC Analyst)",Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Malware & Threats,MCQ,"As a CEH, APT stands for: (Lab)",Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Scanning & Enumeration,MCQ,Exam-style: Common ping sweep tool: (Exam-style),Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Social Engineering,MCQ,Exam-style: Tailgating is: (Exam-style),Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Wireless Security,MCQ,"In an assessment, Default WEP weakness: (Scenario A)",Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Exploitation,MCQ,"As a CEH, Metasploit module types include: (Critical)","Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Exploitation,MCQ,"During a pentest, CSRF mainly exploits: (Real-world)",Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Reconnaissance,MCQ,Exam-style: What’s the primary purpose of WHOIS? (Case Study),Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Web Security,MCQ,"As a CEH, Cookie theft is often linked to: (Lab)",SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Cryptography,MCQ,Security team asks: AES stands for: (Mock),Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Exploitation,MCQ,"During a pentest, Common file upload vulnerability risk: (SOC Analyst)",Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Reconnaissance,MCQ,Security team asks: Robots.txt is used to: (Mock),Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, Reporting should include: (Critical)","Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Reconnaissance,MCQ,Shodan is best described as:,Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Exploitation,MCQ,Exam-style: Command injection occurs when: (Exam-style),User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, Privilege escalation aims to: (Critical)",Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Cryptography,MCQ,Security team asks: SSL/TLS uses: (Mock),Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Reconnaissance,MCQ,"In an assessment, What does Google Dorking help with? (Scenario A)",Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Scanning & Enumeration,MCQ,"In an assessment, Tool to enumerate DNS zone transfers: (Scenario A)",dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Scanning & Enumeration,MCQ,"In an assessment, Which banner hints at Apache? (Threat Intel)",Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, Covering tracks technique: (Real-world)",Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Scanning & Enumeration,MCQ,Security team asks: Common ping sweep tool: (Pentest Engagement),Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Wireless Security,MCQ,"As a CEH, WPA3 improves security with: (Critical)",RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Malware & Threats,MCQ,"As a CEH, Botnets are: (Lab)",One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Exploitation,MCQ,Security team asks: Command injection occurs when: (Mock),User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Cryptography,MCQ,Exam-style: Hashing ensures: (Case Study),Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Exploitation,MCQ,"During a pentest, EternalBlue exploits vulnerability in: (SOC Analyst)",SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Reconnaissance,MCQ,"In an assessment, Shodan is best described as: (Threat Intel)",Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Exploitation,MCQ,Exam-style: Tool sqlmap automates: (Case Study),SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Exploitation,MCQ,Exam-style: SQL injection targets: (Case Study),Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: Reporting should include: (Case Study),"Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, A keylogger records: (Scenario A)",Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Scanning & Enumeration,MCQ,Exam-style: Common ping sweep tool: (Exam-style),Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Cloud Security,MCQ,"As a CEH, Shared Responsibility Model means: (Critical)",AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Reconnaissance,MCQ,"In an assessment, Which is passive recon? (Scenario A)",WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Social Engineering,MCQ,"As a CEH, Phishing mainly relies on: (Critical)",Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Scanning & Enumeration,MCQ,Security team asks: LDAP default port is: (Pentest Engagement),389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Scanning & Enumeration,MCQ,"During a pentest, Netcat is commonly used for: (SOC Analyst)",Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Web Security,MCQ,Security team asks: HTTP-only cookie flag helps prevent: (Mock),SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Malware & Threats,MCQ,Ransomware typically:,Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Malware & Threats,MCQ,"During a pentest, Ransomware typically: (Real-world)",Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, Common ping sweep tool: (Threat Intel)",Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Scanning & Enumeration,MCQ,SNMP v3 improves over v2 by:,More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Cloud Security,MCQ,Exam-style: Misconfigured S3 buckets may lead to: (Exam-style),DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Web Security,MCQ,"In an assessment, OWASP Top 10 A1 is: (Threat Intel)",Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Web Security,MCQ,"As a CEH, OWASP Top 10 A1 is: (Lab)",Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Web Security,MCQ,Exam-style: OWASP Top 10 A1 is: (Case Study),Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Malware & Threats,MCQ,Security team asks: Polymorphic malware: (Mock),Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, Persistence technique example: (Critical)",Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Exploitation,MCQ,"As a CEH, CSRF mainly exploits: (Lab)",Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Exploitation,MCQ,"During a pentest, XXE abuses: (Real-world)",XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Cryptography,MCQ,Security team asks: AES stands for: (Pentest Engagement),Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Social Engineering,MCQ,"As a CEH, Tailgating is: (Lab)",Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Scanning & Enumeration,MCQ,Exam-style: The -sS Nmap option performs: (Exam-style),ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Reconnaissance,MCQ,"In an assessment, Shodan is best described as: (Scenario A)",Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Cloud Security,MCQ,Security team asks: IAM least privilege principle means: (Mock),Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Exploitation,MCQ,Security team asks: Metasploit module types include: (Pentest Engagement),"Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: Persistence technique example: (Exam-style),Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: Persistence technique example: (Case Study),Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Cryptography,MCQ,"In an assessment, Symmetric encryption uses: (Scenario A)",Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Exploitation,MCQ,Security team asks: XXE abuses: (Mock),XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Scanning & Enumeration,MCQ,"As a CEH, SMB runs typically on port: (Critical)",21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Exploitation,MCQ,Security team asks: SQL injection targets: (Pentest Engagement),Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Cryptography,MCQ,"As a CEH, Hashing ensures: (Lab)",Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Reconnaissance,TRUE_FALSE,"In an assessment, Google dorking can reveal sensitive files. (Threat Intel)",True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: Privilege escalation aims to: (Exam-style),Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Exploitation,MCQ,"In an assessment, XXE abuses: (Scenario A)",XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Reconnaissance,MCQ,"During a pentest, What does Google Dorking help with? (SOC Analyst)",Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Cryptography,MCQ,Symmetric encryption uses:,Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Exploitation,MCQ,"During a pentest, Stored XSS persists in: (Real-world)",Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Social Engineering,MCQ,"In an assessment, Pretexting involves: (Threat Intel)",Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Reconnaissance,MCQ,Which is passive recon?,WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Scanning & Enumeration,MCQ,Which banner hints at Apache?,Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Malware & Threats,MCQ,Exam-style: Ransomware typically: (Exam-style),Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Exploitation,MCQ,EternalBlue exploits vulnerability in:,SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, Persistence technique example: (Scenario A)",Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Reconnaissance,MCQ,"As a CEH, What does Google Dorking help with? (Lab)",Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Cryptography,MCQ,"As a CEH, Symmetric encryption uses: (Lab)",Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Web Security,MCQ,"In an assessment, Cookie theft is often linked to: (Scenario A)",SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Social Engineering,MCQ,Security team asks: Pretexting involves: (Pentest Engagement),Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Social Engineering,MCQ,"During a pentest, Pretexting involves: (Real-world)",Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Exploitation,MCQ,"As a CEH, Stored XSS persists in: (Lab)",Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Reconnaissance,TRUE_FALSE,Security team asks: Google dorking can reveal sensitive files. (Pentest Engagement),True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Web Security,MCQ,Exam-style: HTTP-only cookie flag helps prevent: (Case Study),SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, Covering tracks technique: (Lab)",Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Exploitation,MCQ,Command injection occurs when:,User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Malware & Threats,MCQ,Security team asks: Polymorphic malware: (Pentest Engagement),Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Web Security,MCQ,"During a pentest, OWASP Top 10 A1 is: (SOC Analyst)",Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Scanning & Enumeration,MCQ,Security team asks: Which banner hints at Apache? (Mock),Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Exploitation,MCQ,Stored XSS persists in:,Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Web Security,MCQ,"In an assessment, Cookie theft is often linked to: (Threat Intel)",SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Social Engineering,MCQ,Pretexting involves:,Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Reconnaissance,MCQ,"In an assessment, What’s the primary purpose of WHOIS? (Threat Intel)",Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Wireless Security,MCQ,"In an assessment, Default WEP weakness: (Threat Intel)",Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Cloud Security,MCQ,Shared Responsibility Model means:,AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Wireless Security,MCQ,Security team asks: Default WEP weakness: (Pentest Engagement),Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Social Engineering,MCQ,Security team asks: Phishing mainly relies on: (Mock),Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Exploitation,MCQ,Security team asks: Cross-site scripting impacts: (Pentest Engagement),Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Reconnaissance,MCQ,Security team asks: What does Google Dorking help with? (Pentest Engagement),Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Malware & Threats,MCQ,Security team asks: APT stands for: (Pentest Engagement),Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Reconnaissance,MCQ,Security team asks: What does Google Dorking help with? (Mock),Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Scanning & Enumeration,MCQ,"In an assessment, Netcat is commonly used for: (Scenario A)",Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Cloud Security,MCQ,"In an assessment, IAM least privilege principle means: (Scenario A)",Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Reconnaissance,MCQ,"In an assessment, What does Google Dorking help with? (Threat Intel)",Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Exploitation,MCQ,Exam-style: EternalBlue exploits vulnerability in: (Exam-style),SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Scanning & Enumeration,MCQ,"In an assessment, The -sS Nmap option performs: (Threat Intel)",ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Web Security,MCQ,Exam-style: OWASP Top 10 A1 is: (Exam-style),Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Exploitation,MCQ,"During a pentest, SQL injection targets: (Real-world)",Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Exploitation,MCQ,"As a CEH, Command injection occurs when: (Lab)",User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Exploitation,MCQ,Exam-style: Metasploit module types include: (Case Study),"Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Scanning & Enumeration,MCQ,Security team asks: Common ping sweep tool: (Mock),Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Exploitation,MCQ,"In an assessment, Cross-site scripting impacts: (Scenario A)",Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Exploitation,MCQ,"As a CEH, Metasploit module types include: (Lab)","Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, Reporting should include: (Real-world)","Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Wireless Security,MCQ,"During a pentest, Evil Twin attack involves: (Real-world)",Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Cryptography,MCQ,"During a pentest, Hashing ensures: (SOC Analyst)",Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, Persistence technique example: (Threat Intel)",Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Reconnaissance,MCQ,Security team asks: Robots.txt is used to: (Pentest Engagement),Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Malware & Threats,MCQ,Exam-style: Polymorphic malware: (Exam-style),Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Social Engineering,MCQ,Exam-style: Pretexting involves: (Exam-style),Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Malware & Threats,MCQ,"As a CEH, Polymorphic malware: (Critical)",Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Cloud Security,MCQ,"During a pentest, Misconfigured S3 buckets may lead to: (Real-world)",DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Scanning & Enumeration,MCQ,Exam-style: Which banner hints at Apache? (Exam-style),Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, SNMP v3 improves over v2 by: (Scenario A)",More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Web Security,MCQ,Security team asks: Cookie theft is often linked to: (Pentest Engagement),SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Malware & Threats,MCQ,"In an assessment, Polymorphic malware: (Threat Intel)",Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Exploitation,MCQ,"During a pentest, Command injection occurs when: (SOC Analyst)",User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, Privilege escalation aims to: (Real-world)",Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, Reporting should include: (Lab)","Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Malware & Threats,MCQ,"During a pentest, Botnets are: (SOC Analyst)",One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Exploitation,MCQ,XXE abuses:,XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Social Engineering,MCQ,Exam-style: Phishing mainly relies on: (Case Study),Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, SMB runs typically on port: (Critical)",21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Cloud Security,MCQ,Exam-style: Misconfigured S3 buckets may lead to: (Case Study),DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Cryptography,MCQ,"As a CEH, SSL/TLS uses: (Lab)",Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Reconnaissance,MCQ,Exam-style: What does Google Dorking help with? (Exam-style),Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Malware & Threats,MCQ,"As a CEH, Ransomware typically: (Lab)",Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Scanning & Enumeration,MCQ,"During a pentest, LDAP default port is: (Real-world)",389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Cloud Security,MCQ,Security team asks: Misconfigured S3 buckets may lead to: (Mock),DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Wireless Security,MCQ,"During a pentest, Evil Twin attack involves: (SOC Analyst)",Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,A keylogger records:,Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Wireless Security,MCQ,Exam-style: Evil Twin attack involves: (Case Study),Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Web Security,MCQ,HTTP-only cookie flag helps prevent:,SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, Common ping sweep tool: (Scenario A)",Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Cryptography,MCQ,Security team asks: Symmetric encryption uses: (Pentest Engagement),Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, Covering tracks technique: (Scenario A)",Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, SMB runs typically on port: (Scenario A)",21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: Privilege escalation aims to: (Mock),Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, SMB runs typically on port: (Threat Intel)",21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, Covering tracks technique: (Critical)",Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Web Security,MCQ,"During a pentest, HTTP-only cookie flag helps prevent: (Real-world)",SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Malware & Threats,MCQ,"In an assessment, Botnets are: (Threat Intel)",One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, Reporting should include: (Threat Intel)","Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Malware & Threats,MCQ,Botnets are:,One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Exploitation,MCQ,Security team asks: Stored XSS persists in: (Pentest Engagement),Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Scanning & Enumeration,MCQ,"In an assessment, Netcat is commonly used for: (Threat Intel)",Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: Persistence technique example: (Pentest Engagement),Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Exploitation,MCQ,"During a pentest, XXE abuses: (SOC Analyst)",XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Scanning & Enumeration,MCQ,Security team asks: LDAP default port is: (Mock),389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Scanning & Enumeration,MCQ,"During a pentest, The -sS Nmap option performs: (Real-world)",ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Scanning & Enumeration,MCQ,Exam-style: Netcat is commonly used for: (Exam-style),Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Privilege escalation aims to:,Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Exploitation,MCQ,CSRF mainly exploits:,Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Web Security,MCQ,"During a pentest, OWASP Top 10 A1 is: (Real-world)",Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Exploitation,MCQ,"As a CEH, CSRF mainly exploits: (Critical)",Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Reconnaissance,TRUE_FALSE,"In an assessment, Google dorking can reveal sensitive files. (Scenario A)",True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Social Engineering,MCQ,Security team asks: Tailgating is: (Mock),Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Exploitation,MCQ,Exam-style: Cross-site scripting impacts: (Exam-style),Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Scanning & Enumeration,MCQ,"As a CEH, Netcat is commonly used for: (Lab)",Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Reconnaissance,MCQ,"As a CEH, What’s the primary purpose of WHOIS? (Critical)",Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Wireless Security,MCQ,"In an assessment, Evil Twin attack involves: (Threat Intel)",Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Cryptography,MCQ,Exam-style: Symmetric encryption uses: (Case Study),Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Social Engineering,MCQ,"In an assessment, Tailgating is: (Threat Intel)",Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Wireless Security,MCQ,"During a pentest, WPA3 improves security with: (SOC Analyst)",RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Exploitation,MCQ,Common file upload vulnerability risk:,Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Malware & Threats,MCQ,"During a pentest, APT stands for: (Real-world)",Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Reconnaissance,MCQ,"In an assessment, What’s the primary purpose of WHOIS? (Scenario A)",Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Reconnaissance,MCQ,"During a pentest, What does Google Dorking help with? (Real-world)",Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Reconnaissance,MCQ,What’s the primary purpose of WHOIS?,Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Exploitation,MCQ,"As a CEH, Command injection occurs when: (Critical)",User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Wireless Security,MCQ,Evil Twin attack involves:,Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Malware & Threats,MCQ,Security team asks: APT stands for: (Mock),Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Exploitation,MCQ,"As a CEH, EternalBlue exploits vulnerability in: (Critical)",SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Exploitation,MCQ,Metasploit module types include:,"Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Cloud Security,MCQ,IAM least privilege principle means:,Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Malware & Threats,MCQ,"During a pentest, Ransomware typically: (SOC Analyst)",Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Exploitation,MCQ,"As a CEH, XXE abuses: (Lab)",XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Reconnaissance,MCQ,What does Google Dorking help with?,Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, Reporting should include: (SOC Analyst)","Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Cloud Security,MCQ,"In an assessment, IAM least privilege principle means: (Threat Intel)",Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Scanning & Enumeration,MCQ,Exam-style: Which banner hints at Apache? (Case Study),Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Reconnaissance,MCQ,"As a CEH, Which is passive recon? (Critical)",WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Social Engineering,MCQ,"In an assessment, Pretexting involves: (Scenario A)",Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Scanning & Enumeration,MCQ,Exam-style: LDAP default port is: (Case Study),389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Exploitation,MCQ,"During a pentest, Metasploit module types include: (Real-world)","Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, SMB runs typically on port: (Lab)",21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Malware & Threats,MCQ,Polymorphic malware:,Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Reconnaissance,MCQ,Exam-style: Which is passive recon? (Exam-style),WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, Persistence technique example: (SOC Analyst)",Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,Persistence technique example:,Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Scanning & Enumeration,MCQ,SMB runs typically on port:,21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Cryptography,MCQ,"As a CEH, AES stands for: (Lab)",Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Reconnaissance,MCQ,Exam-style: Robots.txt is used to: (Case Study),Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Scanning & Enumeration,MCQ,Security team asks: Netcat is commonly used for: (Mock),Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Social Engineering,MCQ,Phishing mainly relies on:,Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Scanning & Enumeration,MCQ,"During a pentest, Netcat is commonly used for: (Real-world)",Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Cryptography,MCQ,"In an assessment, AES stands for: (Threat Intel)",Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Exploitation,MCQ,Security team asks: Cross-site scripting impacts: (Mock),Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Exploitation,MCQ,"During a pentest, Cross-site scripting impacts: (SOC Analyst)",Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Exploitation,MCQ,"In an assessment, Metasploit module types include: (Threat Intel)","Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Reconnaissance,TRUE_FALSE,Security team asks: Google dorking can reveal sensitive files. (Mock),True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Scanning & Enumeration,MCQ,Security team asks: SMB runs typically on port: (Pentest Engagement),21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: Covering tracks technique: (Exam-style),Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Reconnaissance,MCQ,"During a pentest, Shodan is best described as: (Real-world)",Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Malware & Threats,MCQ,Exam-style: APT stands for: (Exam-style),Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Cloud Security,MCQ,"In an assessment, Shared Responsibility Model means: (Threat Intel)",AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Cloud Security,MCQ,"In an assessment, Misconfigured S3 buckets may lead to: (Threat Intel)",DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Cryptography,MCQ,"As a CEH, AES stands for: (Critical)",Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Cloud Security,MCQ,"In an assessment, Misconfigured S3 buckets may lead to: (Scenario A)",DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Cloud Security,MCQ,"As a CEH, Shared Responsibility Model means: (Lab)",AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Scanning & Enumeration,MCQ,"During a pentest, Tool to enumerate DNS zone transfers: (Real-world)",dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: Covering tracks technique: (Case Study),Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Exploitation,MCQ,Security team asks: Common file upload vulnerability risk: (Pentest Engagement),Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Wireless Security,MCQ,"As a CEH, WPA3 improves security with: (Lab)",RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Malware & Threats,MCQ,"As a CEH, Polymorphic malware: (Lab)",Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Exploitation,MCQ,"During a pentest, Command injection occurs when: (Real-world)",User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Web Security,MCQ,"During a pentest, Cookie theft is often linked to: (SOC Analyst)",SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Malware & Threats,MCQ,"During a pentest, Botnets are: (Real-world)",One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Exploitation,MCQ,Security team asks: Tool sqlmap automates: (Mock),SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Web Security,MCQ,Security team asks: OWASP Top 10 A1 is: (Mock),Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, Persistence technique example: (Lab)",Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Web Security,MCQ,"In an assessment, HTTP-only cookie flag helps prevent: (Threat Intel)",SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Exploitation,MCQ,Security team asks: Common file upload vulnerability risk: (Mock),Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Cloud Security,MCQ,Security team asks: Shared Responsibility Model means: (Pentest Engagement),AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Reconnaissance,MCQ,"During a pentest, What’s the primary purpose of WHOIS? (SOC Analyst)",Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Exploitation,MCQ,"As a CEH, Tool sqlmap automates: (Lab)",SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Scanning & Enumeration,MCQ,Exam-style: LDAP default port is: (Exam-style),389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Exploitation,MCQ,Exam-style: Command injection occurs when: (Case Study),User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Scanning & Enumeration,MCQ,Security team asks: Which banner hints at Apache? (Pentest Engagement),Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Reconnaissance,MCQ,Security team asks: What’s the primary purpose of WHOIS? (Pentest Engagement),Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Cryptography,MCQ,"During a pentest, AES stands for: (Real-world)",Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, A keylogger records: (Threat Intel)",Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Scanning & Enumeration,MCQ,Security team asks: Netcat is commonly used for: (Pentest Engagement),Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Social Engineering,MCQ,"During a pentest, Phishing mainly relies on: (Real-world)",Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Exploitation,MCQ,"In an assessment, Tool sqlmap automates: (Scenario A)",SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, Covering tracks technique: (SOC Analyst)",Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Cloud Security,MCQ,"During a pentest, IAM least privilege principle means: (SOC Analyst)",Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Exploitation,MCQ,Security team asks: Metasploit module types include: (Mock),"Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Exploitation,MCQ,Exam-style: XXE abuses: (Case Study),XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Social Engineering,MCQ,"During a pentest, Tailgating is: (SOC Analyst)",Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Web Security,MCQ,"As a CEH, OWASP Top 10 A1 is: (Critical)",Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Wireless Security,MCQ,Security team asks: Default WEP weakness: (Mock),Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Reconnaissance,MCQ,"During a pentest, Robots.txt is used to: (SOC Analyst)",Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Cloud Security,MCQ,"As a CEH, Misconfigured S3 buckets may lead to: (Lab)",DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Cryptography,MCQ,SSL/TLS uses:,Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Web Security,MCQ,"In an assessment, OWASP Top 10 A1 is: (Scenario A)",Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Scanning & Enumeration,MCQ,Security team asks: The -sS Nmap option performs: (Pentest Engagement),ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Malware & Threats,MCQ,Exam-style: Botnets are: (Exam-style),One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, Netcat is commonly used for: (Scenario A)",Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, Tool to enumerate DNS zone transfers: (Lab)",dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Scanning & Enumeration,MCQ,"During a pentest, The -sS Nmap option performs: (SOC Analyst)",ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Exploitation,MCQ,"During a pentest, Tool sqlmap automates: (SOC Analyst)",SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Exploitation,MCQ,"During a pentest, CSRF mainly exploits: (SOC Analyst)",Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Exploitation,MCQ,Exam-style: Common file upload vulnerability risk: (Exam-style),Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Reconnaissance,MCQ,Exam-style: What does Google Dorking help with? (Case Study),Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Exploitation,MCQ,"As a CEH, Tool sqlmap automates: (Critical)",SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Cloud Security,MCQ,Exam-style: IAM least privilege principle means: (Case Study),Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Social Engineering,MCQ,Tailgating is:,Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Exploitation,MCQ,Exam-style: CSRF mainly exploits: (Case Study),Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Reconnaissance,MCQ,Security team asks: Shodan is best described as: (Mock),Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Reconnaissance,MCQ,"As a CEH, Shodan is best described as: (Critical)",Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Cloud Security,MCQ,"As a CEH, IAM least privilege principle means: (Critical)",Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Scanning & Enumeration,MCQ,"During a pentest, Which banner hints at Apache? (SOC Analyst)",Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Reconnaissance,MCQ,"During a pentest, Which is passive recon? (Real-world)",WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Scanning & Enumeration,MCQ,Exam-style: The -sS Nmap option performs: (Case Study),ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Malware & Threats,MCQ,"In an assessment, APT stands for: (Threat Intel)",Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: A keylogger records: (Pentest Engagement),Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Cryptography,MCQ,Exam-style: Symmetric encryption uses: (Exam-style),Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Cloud Security,MCQ,"As a CEH, Misconfigured S3 buckets may lead to: (Critical)",DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Wireless Security,MCQ,Security team asks: Evil Twin attack involves: (Pentest Engagement),Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Wireless Security,MCQ,"In an assessment, WPA3 improves security with: (Scenario A)",RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Cryptography,MCQ,Exam-style: Hashing ensures: (Exam-style),Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Cloud Security,MCQ,"During a pentest, IAM least privilege principle means: (Real-world)",Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, Persistence technique example: (Real-world)",Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Cloud Security,MCQ,Security team asks: IAM least privilege principle means: (Pentest Engagement),Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, LDAP default port is: (Threat Intel)",389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, Privilege escalation aims to: (SOC Analyst)",Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Cryptography,MCQ,Security team asks: SSL/TLS uses: (Pentest Engagement),Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Scanning & Enumeration,MCQ,"During a pentest, Common ping sweep tool: (SOC Analyst)",Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Reconnaissance,MCQ,"As a CEH, Robots.txt is used to: (Critical)",Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Malware & Threats,MCQ,Exam-style: Polymorphic malware: (Case Study),Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Cloud Security,MCQ,Exam-style: Shared Responsibility Model means: (Case Study),AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Scanning & Enumeration,MCQ,Exam-style: Tool to enumerate DNS zone transfers: (Exam-style),dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Reconnaissance,MCQ,"As a CEH, Which is passive recon? (Lab)",WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Exploitation,MCQ,"As a CEH, Stored XSS persists in: (Critical)",Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Malware & Threats,MCQ,"In an assessment, Ransomware typically: (Threat Intel)",Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: Reporting should include: (Exam-style),"Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Reconnaissance,MCQ,"As a CEH, What does Google Dorking help with? (Critical)",Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: Reporting should include: (Pentest Engagement),"Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Web Security,MCQ,Security team asks: HTTP-only cookie flag helps prevent: (Pentest Engagement),SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Exploitation,MCQ,"In an assessment, Common file upload vulnerability risk: (Scenario A)",Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Malware & Threats,MCQ,"In an assessment, Botnets are: (Scenario A)",One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Wireless Security,MCQ,Exam-style: Default WEP weakness: (Exam-style),Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Cryptography,MCQ,"In an assessment, Hashing ensures: (Scenario A)",Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Cryptography,MCQ,"As a CEH, Symmetric encryption uses: (Critical)",Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Wireless Security,MCQ,"As a CEH, Default WEP weakness: (Critical)",Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Social Engineering,MCQ,"As a CEH, Phishing mainly relies on: (Lab)",Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, Common ping sweep tool: (Critical)",Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Web Security,MCQ,"As a CEH, HTTP-only cookie flag helps prevent: (Critical)",SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Reconnaissance,MCQ,"In an assessment, Which is passive recon? (Threat Intel)",WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Malware & Threats,MCQ,Security team asks: Botnets are: (Pentest Engagement),One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, Privilege escalation aims to: (Threat Intel)",Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Reconnaissance,MCQ,Security team asks: What’s the primary purpose of WHOIS? (Mock),Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Exploitation,MCQ,"During a pentest, SQL injection targets: (SOC Analyst)",Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Malware & Threats,MCQ,"In an assessment, APT stands for: (Scenario A)",Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Scanning & Enumeration,MCQ,"During a pentest, SNMP v3 improves over v2 by: (SOC Analyst)",More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Wireless Security,MCQ,Security team asks: Evil Twin attack involves: (Mock),Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Social Engineering,MCQ,"As a CEH, Pretexting involves: (Lab)",Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Exploitation,MCQ,"In an assessment, Cross-site scripting impacts: (Threat Intel)",Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Reconnaissance,TRUE_FALSE,"As a CEH, Google dorking can reveal sensitive files. (Lab)",True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Exploitation,MCQ,"In an assessment, EternalBlue exploits vulnerability in: (Threat Intel)",SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Social Engineering,MCQ,Security team asks: Phishing mainly relies on: (Pentest Engagement),Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, LDAP default port is: (Critical)",389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, Tool to enumerate DNS zone transfers: (Critical)",dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Exploitation,MCQ,"In an assessment, CSRF mainly exploits: (Threat Intel)",Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Exploitation,MCQ,"During a pentest, Common file upload vulnerability risk: (Real-world)",Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Social Engineering,MCQ,"As a CEH, Tailgating is: (Critical)",Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Reconnaissance,MCQ,"During a pentest, Robots.txt is used to: (Real-world)",Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Scanning & Enumeration,MCQ,Security team asks: Tool to enumerate DNS zone transfers: (Mock),dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Cryptography,MCQ,"During a pentest, SSL/TLS uses: (SOC Analyst)",Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Exploitation,MCQ,Exam-style: CSRF mainly exploits: (Exam-style),Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Exploitation,MCQ,Exam-style: EternalBlue exploits vulnerability in: (Case Study),SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Cryptography,MCQ,"During a pentest, SSL/TLS uses: (Real-world)",Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, Covering tracks technique: (Threat Intel)",Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Exploitation,MCQ,Security team asks: EternalBlue exploits vulnerability in: (Pentest Engagement),SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Scanning & Enumeration,MCQ,"As a CEH, Which banner hints at Apache? (Lab)",Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Reconnaissance,TRUE_FALSE,"During a pentest, Google dorking can reveal sensitive files. (Real-world)",True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Malware & Threats,MCQ,"During a pentest, Polymorphic malware: (Real-world)",Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Reconnaissance,MCQ,Exam-style: Robots.txt is used to: (Case Study),Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Web Security,MCQ,Exam-style: Cookie theft is often linked to: (Exam-style),SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Scanning & Enumeration,MCQ,Exam-style: Netcat is commonly used for: (Case Study),Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Malware & Threats,MCQ,"In an assessment, Polymorphic malware: (Scenario A)",Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Scanning & Enumeration,MCQ,"During a pentest, SNMP v3 improves over v2 by: (Real-world)",More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Reconnaissance,MCQ,Exam-style: What’s the primary purpose of WHOIS? (Exam-style),Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Malware & Threats,MCQ,Security team asks: Ransomware typically: (Pentest Engagement),Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Cryptography,MCQ,Security team asks: Hashing ensures: (Pentest Engagement),Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Web Security,MCQ,Security team asks: OWASP Top 10 A1 is: (Pentest Engagement),Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Wireless Security,MCQ,Default WEP weakness:,Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Exploitation,MCQ,"In an assessment, EternalBlue exploits vulnerability in: (Scenario A)",SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Exploitation,MCQ,Exam-style: Metasploit module types include: (Exam-style),"Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Social Engineering,MCQ,Security team asks: Tailgating is: (Pentest Engagement),Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Cryptography,MCQ,Exam-style: SSL/TLS uses: (Exam-style),Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Cloud Security,MCQ,"During a pentest, Shared Responsibility Model means: (SOC Analyst)",AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Social Engineering,MCQ,"As a CEH, Pretexting involves: (Critical)",Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Scanning & Enumeration,MCQ,"During a pentest, SMB runs typically on port: (Real-world)",21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, LDAP default port is: (Scenario A)",389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Scanning & Enumeration,MCQ,LDAP default port is:,389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Cryptography,MCQ,Hashing ensures:,Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Covering tracks technique:,Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Exploitation,MCQ,Exam-style: Common file upload vulnerability risk: (Case Study),Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Wireless Security,MCQ,"During a pentest, Default WEP weakness: (SOC Analyst)",Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Cryptography,MCQ,"As a CEH, SSL/TLS uses: (Critical)",Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Scanning & Enumeration,MCQ,Security team asks: SNMP v3 improves over v2 by: (Mock),More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, A keylogger records: (Lab)",Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Wireless Security,MCQ,"As a CEH, Evil Twin attack involves: (Critical)",Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Cloud Security,MCQ,Exam-style: Shared Responsibility Model means: (Exam-style),AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Reconnaissance,MCQ,"As a CEH, Shodan is best described as: (Lab)",Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Wireless Security,MCQ,Exam-style: Default WEP weakness: (Case Study),Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Social Engineering,MCQ,"In an assessment, Phishing mainly relies on: (Scenario A)",Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, The -sS Nmap option performs: (Lab)",ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Cloud Security,MCQ,Security team asks: Shared Responsibility Model means: (Mock),AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Malware & Threats,MCQ,Security team asks: Botnets are: (Mock),One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Scanning & Enumeration,MCQ,Exam-style: SNMP v3 improves over v2 by: (Case Study),More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Web Security,MCQ,OWASP Top 10 A1 is:,Broken Access Control|Injection|Insecure Deserialization|Security Logging Failures,1,Injection flaws are top category.,Medium
+CEH,Scanning & Enumeration,MCQ,Security team asks: Tool to enumerate DNS zone transfers: (Pentest Engagement),dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Scanning & Enumeration,MCQ,"During a pentest, Common ping sweep tool: (Real-world)",Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, Netcat is commonly used for: (Critical)",Routing|Pivoting|Port scanning & shells|Hash cracking,2,Swiss-army knife for TCP/UDP.,Easy
+CEH,Reconnaissance,MCQ,"During a pentest, Which is passive recon? (SOC Analyst)",WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Social Engineering,MCQ,"During a pentest, Phishing mainly relies on: (SOC Analyst)",Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Exploitation,MCQ,Security team asks: Stored XSS persists in: (Mock),Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Reconnaissance,MCQ,"During a pentest, What’s the primary purpose of WHOIS? (Real-world)",Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, SNMP v3 improves over v2 by: (Threat Intel)",More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Social Engineering,MCQ,"In an assessment, Tailgating is: (Scenario A)",Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Reconnaissance,TRUE_FALSE,Google dorking can reveal sensitive files.,True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, Which banner hints at Apache? (Critical)",Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: A keylogger records: (Exam-style),Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Reconnaissance,MCQ,Exam-style: Shodan is best described as: (Case Study),Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Malware & Threats,MCQ,"As a CEH, Ransomware typically: (Critical)",Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Reconnaissance,MCQ,"During a pentest, Shodan is best described as: (SOC Analyst)",Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Exploitation,MCQ,Security team asks: CSRF mainly exploits: (Pentest Engagement),Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Cloud Security,MCQ,"During a pentest, Shared Responsibility Model means: (Real-world)",AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, Privilege escalation aims to: (Lab)",Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Reconnaissance,MCQ,Security team asks: Which is passive recon? (Mock),WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Cloud Security,MCQ,"During a pentest, Misconfigured S3 buckets may lead to: (SOC Analyst)",DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Exploitation,MCQ,Exam-style: XXE abuses: (Exam-style),XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Scanning & Enumeration,MCQ,"As a CEH, LDAP default port is: (Lab)",389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Exploitation,MCQ,"As a CEH, SQL injection targets: (Critical)",Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Cloud Security,MCQ,Misconfigured S3 buckets may lead to:,DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Malware & Threats,MCQ,APT stands for:,Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Post-Exploitation & Reporting,MCQ,"During a pentest, A keylogger records: (Real-world)",Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Exploitation,MCQ,"During a pentest, EternalBlue exploits vulnerability in: (Real-world)",SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Cryptography,MCQ,"During a pentest, Symmetric encryption uses: (Real-world)",Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Reconnaissance,TRUE_FALSE,Exam-style: Google dorking can reveal sensitive files. (Case Study),True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Cryptography,MCQ,"In an assessment, SSL/TLS uses: (Threat Intel)",Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,Reporting should include:,"Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Scanning & Enumeration,MCQ,"In an assessment, The -sS Nmap option performs: (Scenario A)",ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Cryptography,MCQ,Exam-style: AES stands for: (Case Study),Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Exploitation,MCQ,Exam-style: Stored XSS persists in: (Case Study),Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Cryptography,MCQ,Security team asks: Hashing ensures: (Mock),Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Wireless Security,MCQ,Security team asks: WPA3 improves security with: (Mock),RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: Persistence technique example: (Mock),Cron job|Ping sweep|Traceroute|nslookup,0,Scheduled tasks maintain access.,Medium
+CEH,Exploitation,MCQ,"During a pentest, Stored XSS persists in: (SOC Analyst)",Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Cloud Security,MCQ,"As a CEH, IAM least privilege principle means: (Lab)",Give all access|Minimum needed access|Root only|Public roles,1,Only required permissions granted.,Easy
+CEH,Reconnaissance,MCQ,Exam-style: Which is passive recon? (Case Study),WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Web Security,MCQ,Security team asks: Cookie theft is often linked to: (Mock),SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Scanning & Enumeration,MCQ,"During a pentest, Tool to enumerate DNS zone transfers: (SOC Analyst)",dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Social Engineering,MCQ,Exam-style: Phishing mainly relies on: (Exam-style),Malware|User trust|Firewall misconfig|Zero-day,1,Social engineering tricking users.,Easy
+CEH,Malware & Threats,MCQ,Security team asks: Ransomware typically: (Mock),Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Wireless Security,MCQ,Security team asks: WPA3 improves security with: (Pentest Engagement),RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Scanning & Enumeration,MCQ,The -sS Nmap option performs:,ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Malware & Threats,MCQ,"As a CEH, APT stands for: (Critical)",Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Reconnaissance,MCQ,"In an assessment, Robots.txt is used to: (Threat Intel)",Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Exploitation,MCQ,"In an assessment, Stored XSS persists in: (Threat Intel)",Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Scanning & Enumeration,MCQ,Exam-style: Common ping sweep tool: (Case Study),Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Exploitation,MCQ,SQL injection targets:,Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, SNMP v3 improves over v2 by: (Critical)",More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Web Security,MCQ,Cookie theft is often linked to:,SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Cryptography,MCQ,"In an assessment, SSL/TLS uses: (Scenario A)",Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Web Security,MCQ,"During a pentest, Cookie theft is often linked to: (Real-world)",SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Exploitation,MCQ,"In an assessment, Common file upload vulnerability risk: (Threat Intel)",Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Exploitation,MCQ,"As a CEH, Cross-site scripting impacts: (Critical)",Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Exploitation,MCQ,"In an assessment, CSRF mainly exploits: (Scenario A)",Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Cryptography,MCQ,"In an assessment, AES stands for: (Scenario A)",Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Scanning & Enumeration,MCQ,"During a pentest, LDAP default port is: (SOC Analyst)",389|443|53|22,0,LDAP runs on TCP/UDP 389.,Easy
+CEH,Scanning & Enumeration,MCQ,Security team asks: The -sS Nmap option performs: (Mock),ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Wireless Security,MCQ,"During a pentest, WPA3 improves security with: (Real-world)",RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Web Security,MCQ,"As a CEH, Cookie theft is often linked to: (Critical)",SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Scanning & Enumeration,MCQ,"During a pentest, Which banner hints at Apache? (Real-world)",Server: nginx|Server: Apache|Server: IIS|Server: Caddy,1,HTTP header includes 'Apache'.,Easy
+CEH,Exploitation,MCQ,"During a pentest, Metasploit module types include: (SOC Analyst)","Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Reconnaissance,MCQ,Exam-style: Robots.txt is used to: (Exam-style),Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: Covering tracks technique: (Mock),Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, Common ping sweep tool: (Lab)",Hydra|Nmap|Burp|sqlmap,1,Nmap supports -sn for ping sweeps.,Easy
+CEH,Reconnaissance,MCQ,"As a CEH, Shodan is best described as: (Lab)",Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Exploitation,MCQ,"As a CEH, Cross-site scripting impacts: (Lab)",Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Exploitation,MCQ,Exam-style: SQL injection targets: (Exam-style),Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Scanning & Enumeration,MCQ,"During a pentest, The -sS Nmap option performs: (Real-world)",ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Scanning & Enumeration,MCQ,Security team asks: SNMP v3 improves over v2 by: (Pentest Engagement),More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Scanning & Enumeration,MCQ,Exam-style: SMB runs typically on port: (Case Study),21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, Privilege escalation aims to: (Scenario A)",Reduce privileges|Gain higher privileges|Change MAC address|Hide processes,1,From user to admin/root.,Easy
+CEH,Reconnaissance,TRUE_FALSE,Exam-style: Google dorking can reveal sensitive files. (Exam-style),True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Reconnaissance,MCQ,"As a CEH, What’s the primary purpose of WHOIS? (Lab)",Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Exploitation,MCQ,"As a CEH, SQL injection targets: (Lab)",Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Wireless Security,MCQ,WPA3 improves security with:,RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Exploitation,MCQ,"During a pentest, Tool sqlmap automates: (Real-world)",SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Scanning & Enumeration,MCQ,"As a CEH, SNMP v3 improves over v2 by: (Lab)",More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Wireless Security,MCQ,Exam-style: WPA3 improves security with: (Case Study),RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Cryptography,MCQ,"As a CEH, Hashing ensures: (Critical)",Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Exploitation,MCQ,"In an assessment, Stored XSS persists in: (Scenario A)",Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Exploitation,MCQ,"In an assessment, SQL injection targets: (Scenario A)",Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Scanning & Enumeration,MCQ,Exam-style: SMB runs typically on port: (Exam-style),21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Reconnaissance,TRUE_FALSE,Security team asks: Google dorking can reveal sensitive files. (Pentest Engagement),True|False,0,Advanced operators can locate exposed files.,Easy
+CEH,Cloud Security,MCQ,"In an assessment, Shared Responsibility Model means: (Scenario A)",AWS secures everything|Customer secures everything|Split duties|3rd party secures all,2,"Cloud provider secures infrastructure, customer secures data/apps.",Easy
+CEH,Reconnaissance,MCQ,Robots.txt is used to:,Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Malware & Threats,MCQ,Exam-style: Ransomware typically: (Case Study),Steals bandwidth|Encrypts files for ransom|Monitors keystrokes|Deletes OS,1,Encrypts data and demands payment.,Easy
+CEH,Exploitation,MCQ,"In an assessment, Metasploit module types include: (Scenario A)","Exploit, Payload, Auxiliary|Only Exploit|Only Payload|Only Auxiliary",0,Framework organizes functionality into modules.,Easy
+CEH,Reconnaissance,MCQ,"In an assessment, Which is passive recon? (Scenario A)",WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,"In an assessment, Reporting should include: (Scenario A)","Only successes|Only failures|Scope, methods, findings, remediation|Screenshots only",2,"Complete, actionable reporting.",Medium
+CEH,Malware & Threats,MCQ,Exam-style: Botnets are: (Case Study),One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Scanning & Enumeration,MCQ,Exam-style: SNMP v3 improves over v2 by: (Exam-style),More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Cryptography,MCQ,AES stands for:,Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Social Engineering,MCQ,Exam-style: Tailgating is: (Case Study),Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Exploitation,MCQ,Security team asks: Command injection occurs when: (Pentest Engagement),User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Cryptography,MCQ,"During a pentest, Hashing ensures: (Real-world)",Confidentiality|Integrity|Availability|Anonymity,1,Hashes verify integrity of data.,Easy
+CEH,Scanning & Enumeration,MCQ,"In an assessment, Tool to enumerate DNS zone transfers: (Threat Intel)",dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Reconnaissance,MCQ,Security team asks: Shodan is best described as: (Pentest Engagement),Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Exploitation,MCQ,"As a CEH, Common file upload vulnerability risk: (Critical)",Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Web Security,MCQ,"As a CEH, HTTP-only cookie flag helps prevent: (Lab)",SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Wireless Security,MCQ,"In an assessment, Evil Twin attack involves: (Scenario A)",Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Web Security,MCQ,Exam-style: Cookie theft is often linked to: (Case Study),SQL injection|XSS|Buffer overflow|DoS,1,XSS can steal cookies via script injection.,Medium
+CEH,Reconnaissance,MCQ,"During a pentest, What does Google Dorking help with? (SOC Analyst)",Finding credentials|Locating hidden files|Bypassing firewalls|Patching exploits,1,Advanced operators locate sensitive files.,Medium
+CEH,Reconnaissance,MCQ,Exam-style: Shodan is best described as: (Exam-style),Password cracker|Search engine for internet-connected devices|DDoS tool|SIEM,1,It indexes banners from exposed devices.,Medium
+CEH,Exploitation,MCQ,"In an assessment, XXE abuses: (Threat Intel)",XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Exploitation,MCQ,Exam-style: Stored XSS persists in: (Exam-style),Victim's browser cache|Server-side data|Firewall tables|Router config,1,Stored XSS is saved by the server and served to users.,Medium
+CEH,Wireless Security,MCQ,"As a CEH, Evil Twin attack involves: (Lab)",Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Scanning & Enumeration,MCQ,Tool to enumerate DNS zone transfers:,dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Exploitation,MCQ,Exam-style: Tool sqlmap automates: (Exam-style),SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Social Engineering,MCQ,Security team asks: Pretexting involves: (Mock),Fake identity story|DNS poisoning|Malware injection|Buffer overflow,0,Convincing story to extract info.,Medium
+CEH,Wireless Security,MCQ,"During a pentest, Default WEP weakness: (Real-world)",Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Post-Exploitation & Reporting,MCQ,Security team asks: Covering tracks technique: (Pentest Engagement),Clearing logs|Privilege escalation|Scanning|SQL injection,0,Attackers clear logs to hide activity.,Easy
+CEH,Exploitation,MCQ,"As a CEH, XXE abuses: (Critical)",XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Reconnaissance,MCQ,"In an assessment, What’s the primary purpose of WHOIS? (Threat Intel)",Discover domain ownership|Bypass firewalls|Scan ports|Steganography,0,WHOIS gives registrar and ownership info.,Easy
+CEH,Wireless Security,MCQ,"In an assessment, WPA3 improves security with: (Threat Intel)",RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Wireless Security,MCQ,Exam-style: Evil Twin attack involves: (Exam-style),Fake AP|SQLi|Cookie theft|Phishing site,0,Fake AP mimics legitimate one.,Medium
+CEH,Exploitation,MCQ,"In an assessment, SQL injection targets: (Threat Intel)",Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Cloud Security,MCQ,Security team asks: Misconfigured S3 buckets may lead to: (Pentest Engagement),DDoS|Data leakage|Buffer overflow|XSS,1,Open buckets expose data.,Medium
+CEH,Web Security,MCQ,"In an assessment, HTTP-only cookie flag helps prevent: (Scenario A)",SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Cryptography,MCQ,Exam-style: AES stands for: (Exam-style),Advanced Encryption Standard|Applied Encoding System|Asymmetric Encryption Standard|Algorithmic Encoding Scheme,0,AES is the Advanced Encryption Standard.,Easy
+CEH,Exploitation,MCQ,Exam-style: Cross-site scripting impacts: (Case Study),Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Scanning & Enumeration,MCQ,Security team asks: SNMP v3 improves over v2 by: (Mock),More MIBs|Encryption & auth|New ports|IPv6 only,1,SNMPv3 adds authentication and privacy.,Medium
+CEH,Cryptography,MCQ,"In an assessment, Symmetric encryption uses: (Threat Intel)",Same key for encrypt/decrypt|Public/private pair|Hashes|One-time pad only,0,Same key shared for both operations.,Easy
+CEH,Scanning & Enumeration,MCQ,"During a pentest, SMB runs typically on port: (SOC Analyst)",21|25|80|445,3,SMB over TCP commonly uses 445.,Easy
+CEH,Exploitation,MCQ,Tool sqlmap automates:,SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Exploitation,MCQ,Security team asks: XXE abuses: (Pentest Engagement),XML parsers|JSON tokens|YAML anchors|CSV delimiters,0,External entities in XML can lead to SSRF/data exfil.,Hard
+CEH,Exploitation,MCQ,"In an assessment, Command injection occurs when: (Scenario A)",User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Scanning & Enumeration,MCQ,Exam-style: Tool to enumerate DNS zone transfers: (Case Study),dig|sqlmap|Burp|Hydra,0,Dig/host can attempt zone transfers.,Medium
+CEH,Malware & Threats,MCQ,"As a CEH, Botnets are: (Critical)",One-time scripts|Networks of compromised hosts|Firewall rules|IDS signatures,1,Controlled compromised machines.,Easy
+CEH,Wireless Security,MCQ,"As a CEH, Default WEP weakness: (Lab)",Strong key mgmt|IV reuse|Quantum attacks|Hardware issues,1,WEP reuses IVs making it weak.,Easy
+CEH,Web Security,MCQ,Exam-style: HTTP-only cookie flag helps prevent: (Exam-style),SQLi|XSS stealing cookies|DoS|Phishing,1,Prevents JS access to cookies.,Easy
+CEH,Exploitation,MCQ,Security team asks: Tool sqlmap automates: (Pentest Engagement),SQL injection|XSS|Brute force|ARP spoofing,0,sqlmap automates detection/exploitation of SQLi.,Easy
+CEH,Reconnaissance,MCQ,"As a CEH, Robots.txt is used to: (Lab)",Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Reconnaissance,MCQ,Security team asks: Which is passive recon? (Pentest Engagement),WHOIS lookup|Port scan|Banner grabbing|Vulnerability scan,0,WHOIS does not touch the target infrastructure.,Easy
+CEH,Exploitation,MCQ,Security team asks: SQL injection targets: (Mock),Network layer|Application/database layer|Physical layer|Link layer,1,It manipulates application queries to DB.,Easy
+CEH,Malware & Threats,MCQ,Exam-style: APT stands for: (Case Study),Advanced Persistent Threat|All Port Test|Anonymous Port Tunnel|Adaptive Penetration Test,0,"APTs are stealthy, long-term targeted attacks.",Medium
+CEH,Reconnaissance,MCQ,"In an assessment, Robots.txt is used to: (Scenario A)",Block IPs|Guide web crawlers|Harden SSH|Mitigate DDoS,1,It tells crawlers what to index or not.,Easy
+CEH,Malware & Threats,MCQ,"During a pentest, Polymorphic malware: (SOC Analyst)",Changes code to evade detection|Replicates without change|Targets BIOS|Disables firewalls,0,It changes signature to avoid AV.,Medium
+CEH,Social Engineering,MCQ,"During a pentest, Tailgating is: (Real-world)",Bypassing AV|Piggybacking into restricted area|Using VPN|ARP spoofing,1,Attacker follows authorized user inside.,Easy
+CEH,Exploitation,MCQ,Security team asks: CSRF mainly exploits: (Mock),Trust of user in site|Trust of site in user|Weak encryption|Buffer overflow,1,CSRF exploits site's trust in user's browser.,Medium
+CEH,Cryptography,MCQ,Exam-style: SSL/TLS uses: (Case Study),Symmetric only|Asymmetric only|Both symmetric & asymmetric|Hashing only,2,TLS uses both for handshake + bulk encryption.,Medium
+CEH,Exploitation,MCQ,"In an assessment, Command injection occurs when: (Threat Intel)",User input passed to shell|DB query mis-formed|Heap overflow|Race condition,0,Unsanitized input reaches OS shell.,Hard
+CEH,Post-Exploitation & Reporting,MCQ,"As a CEH, A keylogger records: (Critical)",Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Exploitation,MCQ,"As a CEH, Common file upload vulnerability risk: (Lab)",Remote code execution|DNS hijack|SQL injection|DoS,0,Unrestricted uploads can lead to RCE.,Hard
+CEH,Exploitation,MCQ,Cross-site scripting impacts:,Client|Server hardware|Network switches|Hypervisors,0,XSS executes malicious code in client browsers.,Medium
+CEH,Exploitation,MCQ,"As a CEH, EternalBlue exploits vulnerability in: (Lab)",SMBv1|SSH|FTP|RDP,0,SMBv1 remote code execution vulnerability.,Medium
+CEH,Scanning & Enumeration,MCQ,"As a CEH, The -sS Nmap option performs: (Critical)",ACK scan|FIN scan|SYN scan|UDP scan,2,Half-open TCP SYN scan.,Medium
+CEH,Post-Exploitation & Reporting,MCQ,Exam-style: A keylogger records: (Case Study),Network packets|Keystrokes|Screen only|Processes,1,Captures keystrokes.,Easy
+CEH,Wireless Security,MCQ,Exam-style: WPA3 improves security with: (Exam-style),RC4|SAE handshake|WEP|TKIP,1,WPA3 introduces Simultaneous Authentication of Equals.,Medium
+CEH,Reconnaissance,TRUE_FALSE,"During a pentest, Google dorking can reveal sensitive files. (SOC Analyst)",True|False,0,Advanced operators can locate exposed files.,Easy

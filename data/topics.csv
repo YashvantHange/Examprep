@@ -1,0 +1,50 @@
+exam_title,topic_name
+CompTIA Security+,General Security Concepts
+CompTIA Security+,Threats, Vulnerabilities, and Mitigations
+CompTIA Security+,Security Architecture
+CompTIA Security+,Security Operations
+CompTIA Security+,Security Program Management and Oversight
+CEH,Reconnaissance
+CEH,Scanning & Enumeration
+CEH,Exploitation
+CEH,Post-Exploitation & Reporting
+CEH,Malware & Threats
+CEH,Cryptography
+CEH,Social Engineering
+CEH,Web Security
+CEH,Wireless Security
+CEH,Cloud Security
+AWS Solutions Architect,Compute
+AWS Solutions Architect,Storage
+AWS Solutions Architect,Networking
+AWS Solutions Architect,Security
+AWS Solutions Architect,Databases
+AWS Solutions Architect,Analytics
+AWS Solutions Architect,Integration
+AWS Solutions Architect,Monitoring
+AWS Solutions Architect,Cost
+AWS Solutions Architect,Reliability
+AWS Solutions Architect,Edge
+AWS Solutions Architect,Migration
+AWS Solutions Architect,Hybrid
+AWS Solutions Architect,DevOps
+AWS Solutions Architect,Serverless
+CompTIA CySA+,Security Operations
+CompTIA CySA+,Vulnerability Management
+CompTIA CySA+,Incident Response & Management
+CompTIA CySA+,Reporting & Communication
+CompTIA PenTest+,Planning & Scoping
+CompTIA PenTest+,Information Gathering & Vulnerability Identification
+CompTIA PenTest+,Attacks & Exploits
+CompTIA PenTest+,Reporting & Communication
+CompTIA PenTest+,Tools & Code Analysis
+AWS Certified Security – Specialty,Incident Response
+AWS Certified Security – Specialty,Logging & Monitoring
+AWS Certified Security – Specialty,Infrastructure Security
+AWS Certified Security – Specialty,Identity & Access Management
+AWS Certified Security – Specialty,Data Protection
+ISC2 Certified in Cybersecurity,Security Principles
+ISC2 Certified in Cybersecurity,Business Continuity, DR, Incident Response
+ISC2 Certified in Cybersecurity,Access Controls
+ISC2 Certified in Cybersecurity,Network Security
+ISC2 Certified in Cybersecurity,Security Operations
